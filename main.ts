@@ -199,9 +199,9 @@ namespace weatherbit {
 
         let windDir = 0
         windDir = pins.analogReadPin(AnalogPin.P1)
-        if (windDir < 891 && windDir > 889)
+        if (windDir < 892 indDir > 888)
             return "N"
-        else if (windDir < 889 && windDir > 887)
+        else if (windDir < 889 && windDir > 886)
             return "NE"
         else if (windDir < 887 && windDir > 884)
             return "E"
